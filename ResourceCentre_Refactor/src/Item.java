@@ -18,6 +18,7 @@ public class Item {
 		return null;
 	}
 	public String getAssetTag() {
+		// HL - add comment
 		return assetTag;
 	}
 
