@@ -6,7 +6,6 @@ public class Item {
 	private boolean isAvailable;
 
 	public Item(String assetTag, String description) {
-		//Name - for CI exercise
 		this.assetTag = assetTag;
 		this.description = description;
 		this.dueDate = "";
@@ -18,7 +17,6 @@ public class Item {
 		return null;
 	}
 	public String getAssetTag() {
-		// HL - add comment
 		return assetTag;
 	}
 
